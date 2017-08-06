@@ -6,7 +6,7 @@ def prime?(n)
   half = (n/2).floor
 
   for x in (2..half)
-    if n % x == 0 || n == x
+    if n % x == 0
       return false
     end
   end
